@@ -72,7 +72,6 @@ console.log(findSquareOfNumbers(myArray));
 
 // # Progression 7
 var myArray = [2, 3, 5, 10];
-var total = 1;
 var multiply = myArray =>{
     var product = myArray.reduce((prev,curr) =>{
         return prev*curr;
